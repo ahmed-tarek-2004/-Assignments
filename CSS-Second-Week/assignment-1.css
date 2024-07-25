@@ -1,0 +1,27 @@
+
+p, .title{
+   color:green;
+} 
+.parent div .title{
+   color: red;
+}
+.parent .title{
+   color: blue;
+}
+
+.zero div{
+   background-color: brown;
+   /* width: 400px; */
+   padding: 20px;
+   margin: 20px;
+}
+.one,.two,.three{
+   color: white;
+width: fit-content;
+}
+.four{
+   color: white;
+   width: 400px;
+   height:22px ; 
+   overflow: hidden;
+}
