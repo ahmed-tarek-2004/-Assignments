@@ -1,140 +1,42 @@
-div .child .title
+.one div
 {
-    color : red;
-    /* margin: auto; */
+   background-color: rgb(173, 171, 169);
+   outline: 5px solid black;
+   display: inline-block;
+   padding: 50px;
+   margin: 20px;
 }
-div .title
-{
-    color: blue;
+.s1{
+   border: 5px ,red,solid;
 }
-
-
-.l,.l1,.l2
-{
-    width: 400px;
-    padding: 10px;
-    margin: 10px;
-    background-color: antiquewhite;
+.s2{
+   border-bottom: 5px blue solid;
+   border-top: 5px blue solid;
+   border-right: 5px green solid;
+   border-left: 5px green solid;
 }
-l1
-{
-overflow: hidden;
-/* white-space: nowrap; */
+.s3{
+   border-bottom: 5px blue dashed;
+   border-top: 5px yellow dashed;
+   border-right: 5px red dashed;
+   border-left: 5px green dashed;
 }
-
-.l2
-{
- overflow: hidden;
-white-space: nowrap;
-text-overflow: ellipsis;
+.two div{
+   width: 400px;
+   background-color: #eee;
+   margin: 10px;
+   /* background-color: rgb(198, 198, 198); */
+   padding: 20px;
+   /* border-left: 10px red solid; */
+   border-spacing: 10px;
+   outline: 10px solid #eee; 
 }
-
-p,.title
-{
-    color: green;
+.element-1{
+   border-left:green 10px solid ;
 }
-
-.one,.two,.three,.four
-{
-     max-width: 400px;
-    padding: 10px;
-    margin: 20px;
-    width: fit-content;
-    background-color: rgb(255, 0, 0);
-    height: 10px;
-    overflow: hidden;
-    /* overflow-y: hidden; */
+.element-3{
+   border-left:rgb(128, 0, 0) 10px solid ;
 }
-
-.z
-{
-    font-weight: bold;
-    text-shadow: .5px .5px 0px red,1.5px 1.5px 0px blue ;
+.element-2{
+visibility: hidden;
 }
-
-.one1,.two1,.three1
-{
-text-align: center;
-}
-.one1
-{
-/* text-align: center; */
-text-transform: uppercase;
-}
-.two1
-{
-/* text-align: center; */
-text-transform: capitalize;
-}
-.three1
-{
-    text-transform: lowercase;
-}
-
-.a a
-{
-/* width: 50px; */
-border-bottom: greenyellow 1px;
-text-align: center;
-text-transform: capitalize;
-background-color: aqua;
-text-decoration:none;
-color: white;
-border-bottom: green 1px solid;
- margin:0 50%;
- font-weight: bold; 
-}
-
-.p
-{
-    width: 400px;
-    margin: 10px 0;
-    padding: 10px;
-    background-color: rgb(1, 4, 6);
-    font-weight: bold;
-    border: rgb(165, 7, 7) 3px solid;
-     text-align: center; 
-}
-.p p
-{
-    border: inherit;
-    margin: inherit;
-    padding: inherit;
-    background-color: antiquewhite;
-}
-
-.one2
-{
-font-weight: 300;
-font-style: italic ;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-}
-
- .two2
- {
-    font-weight: 700;
-    font-family:'cairo',sans-serif;
- }
- .three2
- {
-    font-weight: 400;
-    font-family:  'Jomhuria', cursive;
- }
-
-
-
-/*  color: rgb(15, 213, 101);
-    font-size: 10px;
-     /* background-color: rebeccapurple;
-     background-image: url("../CSS_Folder/WhatsApp\ Image\ 2023-12-15\ at\ 14.30.36_982e81ec.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;  
-    padding-left: 30%;
-    width: 10%;
-    margin-top: 10px ;
-    margin-left: 10px;
-    border-width: 10px;
-    border-style: dashed;
-    border-color: black; 
-    display: none;*/
