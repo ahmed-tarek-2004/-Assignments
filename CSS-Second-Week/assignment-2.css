@@ -1,0 +1,55 @@
+.zero{
+color: black;
+background-color: #eee;
+text-shadow: 1px 1px 0px red, 2px 2px 0px blue;
+font-weight: bold;
+text-transform: capitalize;
+font-family: sans-serif;
+}
+
+.one,.two,.three{
+   font-family: sans-serif;
+   background-color: #eee;
+   width: 400px;
+   margin: 10px;
+   text-align: center;
+}
+
+.one{
+text-transform: uppercase;
+}
+.two{
+   text-transform: lowercase;
+}
+.three{
+   text-transform: capitalize;
+}
+
+.lorem1,.lorem2,.lorem3{
+background-color: #eee;
+margin: 10px;
+padding: 10px;
+}
+.lorem1{
+   width: 400px;
+}
+.lorem2{
+   overflow: hidden;
+   white-space: nowrap;
+}
+.lorem3{
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+}
+a{
+text-decoration: none;
+text-transform: capitalize;
+background-color: rgb(30, 236, 112);
+/* width: 100px; */
+padding: 20px;
+color:white;
+margin:auto;
+border-bottom: 5px green solid;
+cursor: pointer;
+}
