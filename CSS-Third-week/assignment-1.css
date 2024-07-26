@@ -1,0 +1,51 @@
+.parent {
+background-color: #eee;
+width: 8000px;
+margin:auto;
+/* height: 800px; */
+}
+
+.parent div{
+   text-align: center;
+   /* float: left; */
+   background-color: #cac8c8;
+   color: black;
+   margin: 0px 0px 15px 15px;
+   padding: 15px 0px;
+   float: left;
+}
+.parent .full{
+   margin-top: 15px;
+   width:calc(100% - (15px*2)) ;
+}
+
+.parent .two{
+   width:calc((100% - (15px * 3)) /2);
+}
+.parent .one{
+   width:calc((100% - (15px * 4)) /3);
+}
+.parent .four{
+   width:calc((100% - (15px * 5)) /4); ;
+   /* margin-button: 15px; */
+}
+
+p{
+   /* margin-bottom: 15px; */
+   clear: both;
+}
+.opacity div {
+   margin: 20px auto;
+   width: 300px;
+   font-weight: bold;
+   font-size: 1rem;
+   padding: 20px;
+   background-color:rgb(166 166 166 ) ; /* Get The Background From Image */
+   color: black;
+ }
+ .opacity .one{
+   background-color:rgb(166 166 166 /.1) ; /* Get The Background From Image */
+ }
+ .opacity .two{
+  opacity: .1; /* Get The Background From Image */
+ }
