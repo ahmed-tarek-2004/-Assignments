@@ -1,0 +1,138 @@
+.parent{
+   margin: auto;
+   width: 800px;
+}
+
+.parent div{
+   height: 400px;
+   width: 400px;
+   position: absolute;
+}
+.green{
+   background-color: green;
+   z-index: 3;;
+   top: 18px;
+   left: 57px;
+}
+.red{
+   background-color: red;
+   z-index: 4;
+   top: 45px;
+   left: 95px;
+}
+.blue{
+   background-color: blue;
+   z-index: 2;
+   top: 2px;
+   left: 25px;
+}
+.black{
+   background-color: black;
+   top: 18px;
+   left: 25px;
+}
+.lorem{
+   z-index: 5;
+   background-color: rgb(193, 193, 193);
+   width: 400px;
+   padding: 20px;
+   /* margin-top: 0px; */
+   margin: 250px auto;
+   border-top: red 5px solid;
+   border-bottom: red 5px solid;
+   border-right: blue 5px solid;
+   border-left: blue 5px solid;
+   position: relative;
+}
+.top-left{
+position: absolute;
+top: 0px;
+left: 0px;
+text-align: center;
+background-color: #2196f3;
+border-right: red 3px solid;
+top: -25px;
+left: -23px;
+padding: 10px;
+margin: 5px;
+}
+.top-right{
+text-align: center;
+position: absolute;
+background-color: #2196f3;
+border-left: red 3px solid;
+right: -23px;
+top: -25px;
+padding: 10px;
+margin: 5px;
+}
+.bottom-right{
+text-align: center;
+position: absolute;
+background-color: #2196f3;
+border-left: red 3px solid;
+right: -23px;
+bottom: -25px;
+padding: 10px;
+margin: 5px;
+}
+.bottom-left{
+text-align: center;
+position: absolute;
+background-color: #2196f3;
+border-right: red 3px solid;
+left: -23px;
+bottom: -25px;
+padding: 10px;
+margin: 5px;
+}
+.html,.css,.javaS{
+   width: 400px;
+   margin: 20px;
+   background-color: rgb(193, 193, 193);
+   padding: 10px;
+   list-style-type:none; 
+}
+ol li{
+   background-color: white;
+   margin: 10px;
+   padding: 10px;
+}
+
+ul .css ol{
+   list-style-type: upper-roman;
+}
+ul ul li{
+   background-color: white;
+   margin: 10px;
+   padding: 10px;
+   list-style-position: inside;
+}
+table{
+   width: 700px;
+   margin: auto;
+   border-spacing: 1px;
+   /* background-color: rgb(193, 193, 193);; */
+}
+td{
+   text-align: center;
+   border: 0px solid rgb(193, 193, 193);;
+}
+thead td{
+   background-color: black;
+   color: white;
+   padding: 10px;
+   /* border:rgb(193, 193, 193) 3px solid; */
+}
+tbody td{
+   background-color:rgb(193, 193, 193);
+   padding: 10px;
+}
+.view{
+background-color: #2196f3;
+padding: 3px;
+}
+.delete{
+   background-color: crimson;
+   padding :3px;
+}
