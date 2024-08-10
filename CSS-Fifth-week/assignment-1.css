@@ -1,0 +1,57 @@
+.parent{
+    --son-margin:100px;
+    background-color: #eee;
+    text-align: center;
+    margin: 60px auto;
+    padding :10px;
+    width: 400px;
+    height: 200px;
+    transition: margin-top .5s ;
+}
+.parent:hover{
+    margin-top: 10px;
+}
+.parent:hover .son{
+   margin-top: 50px;
+}
+.son
+{
+    background-color: #5151517d;
+    margin:30px auto;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    transition-duration: 1s;
+    transition-delay: 1s ;
+}
+.ass2{
+    background-color: #eee !important;
+    color: transparent !important;
+    padding: 30px !important;
+    border: 1px solid transparent !important;
+    font-size: 20px !important;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+.ass2::after{
+    content: "Elzero";
+    color: rgb(16, 16, 16);
+    position: absolute;
+    font-weight: bold;
+    width: 100%;
+    left:0;
+}
+
+:root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+}
+  
+.parent2 div{
+    border: 1px solid var(--mainColor,black);
+    padding: var(--mainPadding,10px);
+    margin: 10px auto;
+    width: 500px;
+    color: var(--mainColor,red);
+}
