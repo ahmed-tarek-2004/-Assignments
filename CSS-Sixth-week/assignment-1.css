@@ -1,0 +1,59 @@
+.ElZERO{
+  background-color: #eee;
+  margin:50px auto;
+  width: 600px;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 3px;
+  border-left: 5px solid #f44336;
+  border-right: 5px solid #673ab7;
+  position: relative;
+}
+.ElZERO::after {
+  content: "";
+  background-image: linear-gradient(to right ,#f44336 0%,#f44336 20%,yellow 20%, yellow 40%,green 40%,green 60% ,rgb(72, 115, 234) 60%,
+  rgb(72, 115, 234) 80%, #673ab7 80% );
+  width: 622px;
+  height: 5px;
+  position: absolute;
+  top: 0;
+ left: -1px;
+}
+.ElZERO::before {
+  content: "";
+  background-image: linear-gradient(to right ,#f44336 0%,#f44336 20%,yellow 20%, yellow 40%,green 40%,green 60% ,rgb(72, 115, 234) 60%,
+  rgb(72, 115, 234) 80%, #673ab7 80% );
+  width: 622px;
+  height: 5px;
+  position: absolute;
+  bottom: 0;
+ left: -1px;
+}
+.ElZERO::first-letter{
+  color: rgb(255, 165, 38);
+}
+
+input{
+  border: 1px solid transparent;
+  background-color: #eee;
+}
+.parent .input{
+  background-color: #eee;
+  margin: 10px auto;
+  padding: 10px;
+  display: block;
+  caret-color: #f44336;
+  width: 600px;
+  border: 1px solid transparent;
+  position: relative;
+}
+
+.input::before {
+  content: " ";
+  position: absolute;
+  width: 622px;
+  bottom: 0;
+  left: -1px;
+  height: 5px;
+  background-image: linear-gradient(to right, #f44336 0%, #f44336 50%, rgb(72, 115, 234) 50%, rgb(72, 115, 234));
+}
