@@ -36,6 +36,7 @@
 input{
   border: 1px solid transparent;
   background-color: #eee;
+  outline:none;
 }
 .parent .input{
   background-color: #eee;
