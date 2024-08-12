@@ -1,0 +1,128 @@
+.zero{
+  background-color: orange;
+  width: 150px;
+  margin: 50px auto;
+  padding:20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.zero::after{
+  content:"";
+  background-color: orange;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: skew(10deg,10deg);
+  z-index: -1;
+}
+.zero::before{
+  content:"";
+  background-color: orange;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: skew(-10deg,-10deg);
+  z-index: -1;
+}
+.one{
+  background-color: cornflowerblue;
+  /* font-size:20px ; */
+  width: 400px;
+  height: 200px;
+  margin: 50px auto;
+  padding: 20px;
+  color: white;
+  font-size: 70px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.one::before{
+content: "";
+width: 50px;
+height: 240px;
+position: absolute;
+top: 0;
+left: -34px;
+background-color: cornflowerblue;
+border-right: 20px solid white;
+transform: skewX(16deg);
+}
+.two{
+  background-color: darkgray;
+  width: 300px;
+  height: 300px;
+  margin: 300px auto 0;
+ position: relative;
+ border-bottom: black solid 10px;
+}
+.two::after{
+  position: absolute;
+  content: "Elzero";
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+}
+.two::before{
+  content: "";
+  position: absolute;
+  display: flex;
+  /* justify-content: center; */
+  left: 43px;
+  top: -106px;
+  background-color: black;
+  outline: none;
+  width: 207px;
+  height: 207px;
+  transform: rotate(44.5deg);
+  border-right: solid white 5px;
+  border-bottom: solid white 5px;
+}
+.three{
+margin: 20px auto;
+transform-style: preserve-3d;
+perspective: 600px;
+position: relative;
+width: 200px ;
+height: 200px;
+transform-origin:center center ;
+transition: all 1s;
+}
+.three::after{
+  content: "Front";
+  position: absolute;
+  display: flex;
+  color: white;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: deeppink;
+  width: 200px;
+  height: 200px;
+  margin: 0px auto;
+  backface-visibility: hidden;
+}
+.three::before{
+  content: "Back";
+  position: absolute;
+  display: flex;
+  color: white;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  margin: 0px auto;
+  transform: rotateY(180deg);
+}
+.three:hover{
+ transform: rotateY(180deg) ;
+}
